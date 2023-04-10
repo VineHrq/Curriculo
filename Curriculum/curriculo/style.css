@@ -1,0 +1,186 @@
+* {
+	margin: none;
+	padding: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	width: 100%;
+	max-width: 818px;
+	margin: auto;
+}
+
+.container .header {
+	width: 100%;
+	display: flex;
+	padding: 32px;
+}
+
+.container .header img {
+	border-radius: 20px;
+}
+
+.container .header .descripition {
+	margin-left: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.container .header h1 {
+	margin: 0;
+}
+
+.container .header .descripition span {
+	color: #777;
+	font-weight: lighter;
+	font-size: 20px;
+	margin-top: 8px;
+}
+
+.container .content {
+	width: 100%;
+	display: flex;
+}
+
+.container .content .layout-left {
+	width: 40%;
+}
+
+.container .content .layout-right .about {
+	background: #f2f3f5b0;
+	padding: 16px;
+	text-align: justify;
+	border-radius: 0 20px 0 0;
+	font-size: 14px;
+}
+
+.container .content .layout-left .infos {
+	border-radius: 20px 0 0 0;
+}
+
+.container .content .layout-left .infos,
+.container .content .layout-left .skills {
+	background: #F2F3F5;
+	display: flex;
+	flex-direction: column;
+	padding: 8px;
+}
+
+.container .content .layout-left .infos .line {
+	display: flex;
+	align-items: center;
+}
+
+.container .content .layout-left .infos .line p {
+	margin-left: 8px;
+	color: #333;
+	font-size: 14px;
+}
+
+.container .content .layout-left .infos .line a {
+	text-decoration: none;
+	color: #333;
+}
+
+.container .content .layout-left .infos .line a:hover {
+	color: #777;
+}
+
+.container .content .layout-left .education {
+	background: #e3e4e6c7;
+	padding: 0 16px;
+}
+
+.container .content .layout-left .education .line,
+.container .content .layout-right .xp .line {
+	color: #333;
+	display: flex;
+	flex-direction: column;
+	padding: 8px;
+}
+
+.container .content .layout-left .education .line p,
+.container .content .layout-right .xp .line p {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 4px 0;
+}
+
+.container .content .layout-left .education .line span,
+.container .content .layout-right .xp .line span {
+	color: #333;
+	font-size: 14px;
+	padding: 4px 0;
+	text-align: justify;
+}
+
+.container .content .layout-right {
+	width: 60%;
+	background-color: #ebeceed6;
+	border-radius: 0 20px 20px 0;
+}
+
+.container .content .layout-right .xp {
+	background: #ebeceed6;
+	padding: 0 16px;
+	border-radius: 0 0 20px 0;
+}
+
+.container .content .layout-right .xp .line {
+	padding: 8px;
+}
+
+.container .content .layout-right .xp .line p {
+	padding: 0;
+}
+
+.container .content .layout-right .xp .line .tec {
+	margin-top: 10px;
+	display: block;
+	color: #777;
+}
+
+.container .content .layout-left .skills {
+	height: 548px;
+	border-radius: 0 0 0 20px;
+}
+
+.container .content .layout-left .skills ul li {
+	list-style-type: circle;
+	font-size: 14px;
+}
+
+.title {
+	color: #2A5167;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	padding: 0 4px;
+}
+
+.period {
+	color: #777 !important;
+}
+
+a {
+	text-decoration: none;
+	color: #2A5167;
+	font-weight: 700;
+}
+
+.bar {
+	background: #C8CCD4;
+	width: 100%;
+	height: 3px;
+	border-radius: 5px;
+}
+
+.divbar {
+	background: #2A5167;
+	float: left;
+	width: 100px;
+	height: 100%;
+	border-radius: 5px;
+}
